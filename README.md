@@ -13,10 +13,6 @@
 
 ---
 
-<!-- Add your QR code image here -->
-
-![alt text](image-1.png)
-
 </div>
 
 ## ✨ Features
