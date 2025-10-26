@@ -15,7 +15,7 @@
 
 <!-- Add your QR code image here -->
 
-![QR Code Example](./assets/qr-example.png)
+![alt text](image-1.png)
 
 </div>
 
@@ -71,6 +71,8 @@ npm install
 
 # 4️⃣ Start the server
 npm start
+# Start the server
+node index.js
 ```
 
 The server will start on `http://localhost:3000` 🎉
@@ -146,16 +148,6 @@ curl -X POST http://localhost:3000/generate \
   -d '{"url":"https://github.com/SALIK-JAVID"}'
 ```
 
-### Python
-
-```python
-import requests
-
-response = requests.post('http://localhost:3000/generate',
-    json={'url': 'https://github.com/SALIK-JAVID'})
-print(response.json())
-```
-
 ---
 
 ## 📁 Project Structure
@@ -166,7 +158,6 @@ QR-generator/
 ├── 📄 package.json      # Dependencies
 ├── 📄 .gitignore        # Git ignore rules
 ├── 📄 README.md         # Documentation
-└── 📁 assets/           # Images & resources
 ```
 
 ---
@@ -194,19 +185,12 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👨‍💻 Author
 
 **Salik Javid**
 
 - GitHub: [@SALIK-JAVID](https://github.com/SALIK-JAVID)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-- Portfolio: [Your Portfolio](https://your-portfolio.com)
+- LinkedIn: [Your LinkedIn](linkedin.com/in/salik-javid-a0978828b)
 
 ---
 
